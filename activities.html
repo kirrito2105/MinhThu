@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activities - 12A7 Chu Van An</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="information.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="transitions.css">
+</head>
+<body>
+    <div class="page-transition"></div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i> Trang Chủ</a></li>
+                <li><a href="members.html"><i class="fas fa-users"></i> Thành Viên</a></li>
+                <li><a href="activities.html"><i class="fas fa-calendar-alt"></i> Hoạt Động</a></li>
+                <li><a href="yearbook.html"><i class="fas fa-camera"></i> Kỷ Yếu</a></li>
+                <li><a href="information.html"><i class="fas fa-info-circle"></i> Liên Hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="activities">
+            <h2><i class="fas fa-tasks"></i> Hoạt Động Của Lớp 12A7</h2>
+            <p class="section-desc">Những khoảnh khắc đáng nhớ và hoạt động sôi nổi của lớp.</p>
+            
+            <div class="activity-filters">
+                <button class="filter-btn active" data-filter="all">Tất cả</button>
+                <button class="filter-btn" data-filter="academic">Học tập</button>
+                <button class="filter-btn" data-filter="social">Hoạt động xã hội</button>
+                <button class="filter-btn" data-filter="sports">Thể thao</button>
+            </div>
+
+            <div class="activity-grid">
+                <div class="activity-card" data-category="academic">
+                    <div class="activity-image">
+                        <img src="images/hocchung.jpg" alt="Hoạt động học tập">
+                        <div class="activity-date">
+                            <i class="far fa-calendar-alt"></i> 15/03/2024
+                        </div>
+                    </div>
+                    <div class="activity-content">
+                        <h3>Ôn thi học kỳ</h3>
+                        <p>Cả lớp cùng nhau ôn tập và chuẩn bị cho kỳ thi sắp tới.</p>
+                        <div class="activity-footer">
+                            <span><i class="fas fa-map-marker-alt"></i> Nhà của ai đó!!</span>
+                            <a href="#" class="read-more">Xem thêm <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="activity-card" data-category="academic">
+                    <div class="activity-image">
+                        <img src="images/hoctap.jpg" alt="Hoạt động học tập">
+                        <div class="activity-date">
+                            <i class="far fa-calendar-alt"></i> 15/10/2024
+                        </div>
+                    </div>
+                    <div class="activity-content">
+                        <h3>Phát giấy cứng nhận</h3>
+                        <p>Phát giấy chứng nhận ngoại khoá Đá bóng lớp 12A7.<br><br></p>
+                        <div class="activity-footer">
+                            <span><i class="fas fa-map-marker-alt"></i> Phòng học lớp 12A7</span>
+                            <a href="#" class="read-more">Xem thêm <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="activity-card" data-category="academic">
+                    <div class="activity-image">
+                        <img src="images/HSG.jpg" alt="Hoạt động học tập">
+                        <div class="activity-date">
+                            <i class="far fa-calendar-alt"></i> 20/08/2024
+                        </div>
+                    </div>
+                    <div class="activity-content">
+                        <h3>Phát giấy khen</h3>
+                        <p>Phát giấy khen các bạn có thành tích tốt trong Kỳ thi chọn Học sinh giỏi cấp tỉnh.</p>
+                        <div class="activity-footer">
+                            <span><i class="fas fa-map-marker-alt"></i> Sảnh chào cờ THPT Chu Văn An</span>
+                            <a href="#" class="read-more">Xem thêm <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="activity-card" data-category="academic">
+                    <div class="activity-image">
+                        <img src="images/thanhtich.jpg" alt="Hoạt động học tập">
+                        <div class="activity-date">
+                            <i class="far fa-calendar-alt"></i> 20/08/2024
+                        </div>
+                    </div>
+                    <div class="activity-content">
+                        <h3>Ảnh kỷ niệm</h3>
+                        <p>Ảnh kỷ niệm đêm cắm trại trong Trại xuân Ất Tỵ, cùng với những thành tích phong trào.</p>
+                        <div class="activity-footer">
+                            <span><i class="fas fa-map-marker-alt"></i> Sảnh chào cờ THPT Chu Văn An</span>
+                            <a href="#" class="read-more">Xem thêm <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="activity-card" data-category="social">
+                    <div class="activity-image">
+                        <img src="/images/tuthien1.jpg" alt="Hoạt động từ thiện">
+                        <div class="activity-date">
+                            <i class="far fa-calendar-alt"></i> 20/09/2024
+                        </div>
+                    </div>
+                    <div class="activity-content">
+                        <h3>Hoạt động từ thiện</h3>
+                        <p>Quyên góp tiền cho các em nhỏ khó khăn.</p>
+                        <div class="activity-footer">
+                            <span><i class="fas fa-map-marker-alt"></i> Phòng học lớp 12A7</span>
+                            <a href="#" class="read-more">Xem thêm <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="activity-card" data-category="social">
+                    <div class="activity-image">
+                        <img src="/images/tuthien2.jpg" alt="Hoạt động từ thiện">
+                        <div class="activity-date">
+                            <i class="far fa-calendar-alt"></i> 20/09/2024
+                        </div>
+                    </div>
+                    <div class="activity-content">
+                        <h3>Hoạt động từ thiện</h3>
+                        <p>Quyên góp tiền cho các em nhỏ khó khăn.</p>
+                        <div class="activity-footer">
+                            <span><i class="fas fa-map-marker-alt"></i> Phòng học lớp 12A7</span>
+                            <a href="#" class="read-more">Xem thêm <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="activity-card" data-category="social">
+                    <div class="activity-image">
+                        <img src="/images/tuthien3.jpg" alt="Hoạt động từ thiện">
+                        <div class="activity-date">
+                            <i class="far fa-calendar-alt"></i> 20/09/2024
+                        </div>
+                    </div>
+                    <div class="activity-content">
+                        <h3>Hoạt động từ thiện</h3>
+                        <p>Quyên góp tiền cho các em nhỏ khó khăn.</p>
+                        <div class="activity-footer">
+                            <span><i class="fas fa-map-marker-alt"></i> Phòng học lớp 12A7</span>
+                            <a href="#" class="read-more">Xem thêm <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="activity-card" data-category="sports">
+                    <div class="activity-image">
+                        <img src="/images/bongda1.jpg" alt="Hoạt động từ thiện">
+                        <div class="activity-date">
+                            <i class="far fa-calendar-alt"></i> 10/09/2024
+                        </div>
+                    </div>
+                    <div class="activity-content">
+                        <h3>Hoạt động ngoại khoá</h3>
+                        <p>Giải bóng đá giao lưu các tổ lớp 12A7.</p>
+                        <div class="activity-footer">
+                            <span><i class="fas fa-map-marker-alt"></i> Sân ban nhà Tần Nghi</span>
+                            <a href="#" class="read-more">Xem thêm <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="activity-card" data-category="sports">
+                    <div class="activity-image">
+                        <img src="/images/bongda2.jpg" alt="Hoạt động từ thiện">
+                        <div class="activity-date">
+                            <i class="far fa-calendar-alt"></i> 10/09/2024
+                        </div>
+                    </div>
+                    <div class="activity-content">
+                        <h3>Hoạt động ngoại khoá</h3>
+                        <p>Giải bóng đá giao lưu các tổ lớp 12A7.</p>
+                        <div class="activity-footer">
+                            <span><i class="fas fa-map-marker-alt"></i> Sân ban nhà Tần Nghi</span>
+                            <a href="#" class="read-more">Xem thêm <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="activity-card" data-category="sports">
+                    <div class="activity-image">
+                        <img src="/images/bongda3.jpg" alt="Hoạt động từ thiện">
+                        <div class="activity-date">
+                            <i class="far fa-calendar-alt"></i> 10/09/2024
+                        </div>
+                    </div>
+                    <div class="activity-content">
+                        <h3>Hoạt động ngoại khoá</h3>
+                        <p>Giải bóng đá giao lưu các tổ lớp 12A7.</p>
+                        <div class="activity-footer">
+                            <span><i class="fas fa-map-marker-alt"></i> Sân ban nhà Tần Nghi</span>
+                            <a href="#" class="read-more">Xem thêm <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="activity-card" data-category="sports">
+                    <div class="activity-image">
+                        <img src="/images/bongda4.jpg" alt="Hoạt động từ thiện">
+                        <div class="activity-date">
+                            <i class="far fa-calendar-alt"></i> 10/09/2024
+                        </div>
+                    </div>
+                    <div class="activity-content">
+                        <h3>Hoạt động ngoại khoá</h3>
+                        <p>Giải bóng đá giao lưu các tổ lớp 12A7.</p>
+                        <div class="activity-footer">
+                            <span><i class="fas fa-map-marker-alt"></i> Sân ban nhà Tần Nghi</span>
+                            <a href="#" class="read-more">Xem thêm <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="activity-card" data-category="sports">
+                    <div class="activity-image">
+                        <img src="/images/bongchuyen1.jpg" alt="Hoạt động từ thiện">
+                        <div class="activity-date">
+                            <i class="far fa-calendar-alt"></i> 25/12/2024
+                        </div>
+                    </div>
+                    <div class="activity-content">
+                        <h3>Bóng chuyền</h3>
+                        <p>Giải bóng chuyền Trại xuân Ất Tỵ.</p>
+                        <div class="activity-footer">
+                            <span><i class="fas fa-map-marker-alt"></i> Sân banh THPT Chu Văn An</span>
+                            <a href="#" class="read-more">Xem thêm <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="activity-card" data-category="sports">
+                    <div class="activity-image">
+                        <img src="/images/bongchuyen2.jpg" alt="Hoạt động từ thiện">
+                        <div class="activity-date">
+                            <i class="far fa-calendar-alt"></i> 25/12/2024
+                        </div>
+                    </div>
+                    <div class="activity-content">
+                        <h3>Bóng chuyền</h3>
+                        <p>Giải bóng chuyền Trại xuân Ất Tỵ.</p>
+                        <div class="activity-footer">
+                            <span><i class="fas fa-map-marker-alt"></i> Sân banh THPT Chu Văn An</span>
+                            <a href="#" class="read-more">Xem thêm <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="activity-card" data-category="sports">
+                    <div class="activity-image">
+                        <img src="/images/bongchuyen3.jpg" alt="Hoạt động từ thiện">
+                        <div class="activity-date">
+                            <i class="far fa-calendar-alt"></i> 25/12/2024
+                        </div>
+                    </div>
+                    <div class="activity-content">
+                        <h3>Bóng chuyền</h3>
+                        <p>Giải bóng chuyền Trại xuân Ất Tỵ.</p>
+                        <div class="activity-footer">
+                            <span><i class="fas fa-map-marker-alt"></i> Sân banh THPT Chu Văn An</span>
+                            <a href="#" class="read-more">Xem thêm <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="activity-card" data-category="sports">
+                    <div class="activity-image">
+                        <img src="/images/bongchuyen4.jpg" alt="Hoạt động từ thiện">
+                        <div class="activity-date">
+                            <i class="far fa-calendar-alt"></i> 25/12/2024
+                        </div>
+                    </div>
+                    <div class="activity-content">
+                        <h3>Bóng chuyền</h3>
+                        <p>Giải bóng chuyền Trại xuân Ất Tỵ.</p>
+                        <div class="activity-footer">
+                            <span><i class="fas fa-map-marker-alt"></i> Sân banh THPT Chu Văn An</span>
+                            <a href="#" class="read-more">Xem thêm <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="activity-card" data-category="sports">
+                    <div class="activity-image">
+                        <img src="/images/bongchuyen5.jpg" alt="Hoạt động từ thiện">
+                        <div class="activity-date">
+                            <i class="far fa-calendar-alt"></i> 25/12/2024
+                        </div>
+                    </div>
+                    <div class="activity-content">
+                        <h3>Bóng chuyền</h3>
+                        <p>Giải bóng chuyền Trại xuân Ất Tỵ.</p>
+                        <div class="activity-footer">
+                            <span><i class="fas fa-map-marker-alt"></i> Sân banh THPT Chu Văn An</span>
+                            <a href="#" class="read-more">Xem thêm <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="activity-card" data-category="sports">
+                    <div class="activity-image">
+                        <img src="/images/bongchuyen6.jpg" alt="Hoạt động từ thiện">
+                        <div class="activity-date">
+                            <i class="far fa-calendar-alt"></i> 25/12/2024
+                        </div>
+                    </div>
+                    <div class="activity-content">
+                        <h3>Bóng chuyền</h3>
+                        <p>Giải bóng chuyền Trại xuân Ất Tỵ.</p>
+                        <div class="activity-footer">
+                            <span><i class="fas fa-map-marker-alt"></i> Sân banh THPT Chu Văn An</span>
+                            <a href="#" class="read-more">Xem thêm <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="activity-card" data-category="sports friends">
+                    <div class="activity-image">
+                        <img src="/images/hoixuan1.jpg" alt="Hoạt động từ thiện">
+                        <div class="activity-date">
+                            <i class="far fa-calendar-alt"></i> 28/12/2024
+                        </div>
+                    </div>
+                    <div class="activity-content">
+                        <h3>Hội xuân</h3>
+                        <p>Hội Trại xuân Ất Tỵ.</p>
+                        <div class="activity-footer">
+                            <span><i class="fas fa-map-marker-alt"></i> Sân trường THPT Chu Văn An</span>
+                            <a href="#" class="read-more">Xem thêm <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="activity-card" data-category="sports friends">
+                    <div class="activity-image">
+                        <img src="/images/hoixuan2.jpg" alt="Hoạt động từ thiện">
+                        <div class="activity-date">
+                            <i class="far fa-calendar-alt"></i> 28/12/2024
+                        </div>
+                    </div>
+                    <div class="activity-content">
+                        <h3>Hội xuân</h3>
+                        <p>Hội Trại xuân Ất Tỵ.</p>
+                        <div class="activity-footer">
+                            <span><i class="fas fa-map-marker-alt"></i> Sân trường THPT Chu Văn An</span>
+                            <a href="#" class="read-more">Xem thêm <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="activity-card" data-category="sports friends">
+                    <div class="activity-image">
+                        <img src="/images/hoixuan3.jpg" alt="Hoạt động từ thiện">
+                        <div class="activity-date">
+                            <i class="far fa-calendar-alt"></i> 28/12/2024
+                        </div>
+                    </div>
+                    <div class="activity-content">
+                        <h3>Hội xuân</h3>
+                        <p>Hội Trại xuân Ất Tỵ.</p>
+                        <div class="activity-footer">
+                            <span><i class="fas fa-map-marker-alt"></i> Sân trường THPT Chu Văn An</span>
+                            <a href="#" class="read-more">Xem thêm <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="activity-card" data-category="sports friends">
+                    <div class="activity-image">
+                        <img src="/images/hoixuan4.jpg" alt="Hoạt động từ thiện">
+                        <div class="activity-date">
+                            <i class="far fa-calendar-alt"></i> 28/12/2024
+                        </div>
+                    </div>
+                    <div class="activity-content">
+                        <h3>Hội xuân</h3>
+                        <p>Hội Trại xuân Ất Tỵ.</p>
+                        <div class="activity-footer">
+                            <span><i class="fas fa-map-marker-alt"></i> Sân trường THPT Chu Văn An</span>
+                            <a href="#" class="read-more">Xem thêm <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="activity-card" data-category="sports friends">
+                    <div class="activity-image">
+                        <img src="/images/hoixuan5.jpg" alt="Hoạt động từ thiện">
+                        <div class="activity-date">
+                            <i class="far fa-calendar-alt"></i> 28/12/2024
+                        </div>
+                    </div>
+                    <div class="activity-content">
+                        <h3>Hội xuân</h3>
+                        <p>Hội Trại xuân Ất Tỵ.</p>
+                        <div class="activity-footer">
+                            <span><i class="fas fa-map-marker-alt"></i> Sân trường THPT Chu Văn An</span>
+                            <a href="#" class="read-more">Xem thêm <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- More activity cards can be added here -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="copyright">
+                <p>&copy; 2025 Lê Minh Thư Lớp 12A7 - THPT Chu Văn An</p>
+            </div>
+            <div class="social-links">
+                <a href="mailto:lethu29102019@gmail.com" class="social-link">
+                    <i class="fas fa-envelope"></i>
+                    <span>lethu29102019@gmail.com</span>
+                </a>
+                <a href="https://www.facebook.com/lmt797" target="_blank" class="social-link">
+                    <i class="fab fa-facebook"></i>
+                    <span>Lê Minh Thư</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

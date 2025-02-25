@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information - 12A7 Chu Van An</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="information.css">
+    <link rel="stylesheet" href="transitions.css">
+    <style>
+        .contact-form {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            
+        }
+        .contact-form h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .contact-form label {
+            font-weight: bold;
+        }
+        .contact-form input, .contact-form select, .contact-form textarea {
+            width: 95%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            width: 100%;
+            padding: 10px;
+            background: blue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background: darkblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="page-transition"></div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i> Trang Chủ</a></li>
+                <li><a href="members.html"><i class="fas fa-users"></i> Thành Viên</a></li>
+                <li><a href="activities.html"><i class="fas fa-calendar-alt"></i> Hoạt Động</a></li>
+                <li><a href="yearbook.html"><i class="fas fa-camera"></i> Kỷ Yếu</a></li>
+                <li><a href="information.html"><i class="fas fa-info-circle"></i> Liên Hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="information">
+            <h2><i class="fas fa-info-circle"></i> Thông Tin Liên Hệ</h2>
+            <p class="section-desc">Thông tin chi tiết về lớp 12A7 và cách liên hệ với chúng tôi.</p>
+
+            <div class="contact-container">
+                <div class="contact-cards">
+                    <div class="contact-card">
+                        <div class="card-header">
+                            <i class="fas fa-school"></i>
+                            <h3>Thông Tin Trường</h3>
+                        </div>
+                        <div class="card-content">
+                            <p><i class="fas fa-map-marker-alt"></i> THPT Chu Văn An</p>
+                            <p>Khóm Mươn Nhà Máy, Phường An Thạnh</p>
+                            <p>Tp Hồng Ngự, Tỉnh Đồng Tháp</p>
+                            <p><i class="fas fa-phone"></i> 0277.3837.308</p>
+                            <p><i class="fas fa-globe"></i> <a href="http://c3chuvanan.dongthap.edu.vn/" target="_blank">Website Trường</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="card-header">
+                            <i class="fas fa-user-tie"></i>
+                            <h3>Ban Cán Sự Lớp</h3>
+                        </div>
+                        <div class="card-content">
+                            <p><strong>Giáo viên chủ nhiệm:</strong></p>
+                            <p>Mai Thị Thuỳ Trang</p>
+                            <p><i class="fas fa-phone"></i> 094.987.8218</p>
+                            <p><strong>Lớp trưởng:</strong></p>
+                            <p>Phạm Tuấn Duy</p>
+                            <p><i class="fas fa-envelope"></i> phamtuanduy9507@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="card-header">
+                            <i class="fas fa-clock"></i>
+                            <h3>Giờ Học</h3>
+                        </div>
+                        <div class="card-content">
+                            <p><strong>Buổi sáng:</strong></p>
+                            <p>7:00 - 11:25</p>
+                            <p><strong>Buổi chiều:</strong></p>
+                            <p>13:00 - 17:25</p>
+                            <p><i class="fas fa-calendar-alt"></i> Từ thứ 2 đến thứ 7</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-sections">
+                    <div class="inquiry-form">
+                        <form class="contact-form">
+                            <h2>Liên Hệ</h2>
+                            <label for="name">Họ và Tên</label>
+                            <input type="text" id="name" name="name" required>
+                    
+                            <label for="phone">Số Điện Thoại</label>
+                            <input type="tel" id="phone" name="phone" required>
+                    
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                    
+                            <label for="topic">Chủ Đề</label>
+                            <select id="topic" name="topic">
+                                <option value="Thông tin chung">Thông tin chung</option>
+                                <option value="Học tập">Học tập</option>
+                                <option value="Hoạt động ngoại khóa">Hoạt động ngoại khóa</option>
+                                <option value="Khác">Khác</option>
+                            </select>
+                    
+                            <label for="message">Nội Dung Tin Nhắn</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                    
+                            <button type="submit">
+                                <i class="fas fa-paper-plane"></i>
+                                <span>Gửi Tin Nhắn</span>
+                            </button>
+                        </form>
+                    </div>
+
+                    <div class="map-section">
+                        <h3><i class="fas fa-map"></i> Bản Đồ Chỉ Đường</h3>
+                        <div class="map-container">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.3790392212166!2d105.3432441!3d10.8173305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310a36e2085b3e11%3A0x4caad911b9c69737!2zVHLGsOG7nW5nIFRIUFQgQ2h1IFbEg24gQW4!5e0!3m2!1svi!2s!4v1711425698646!5m2!1svi!2s" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                        <div class="map-actions">
+                            <a href="https://maps.app.goo.gl/F36Trq46AahySmeu8" target="_blank" class="direction-btn">
+                                <i class="fas fa-directions"></i> Chỉ đường đến trường
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="copyright">
+                <p>&copy; 2025 Lê Minh Thư Lớp 12A7 - THPT Chu Văn An</p>
+            </div>
+            <div class="social-links">
+                <a href="mailto:lethu29102019@gmail.com" class="social-link">
+                    <i class="fas fa-envelope"></i>
+                    <span>lethu29102019@gmail.com</span>
+                </a>
+                <a href="https://www.facebook.com/lmt797" target="_blank" class="social-link">
+                    <i class="fab fa-facebook"></i>
+                    <span>Lê Minh Thư</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

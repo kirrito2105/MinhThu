@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Members - 12A7 Chu Van An</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="information.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="transitions.css">
+</head>
+<body>
+    <div class="page-transition"></div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i> Trang Chủ</a></li>
+                <li><a href="members.html"><i class="fas fa-users"></i> Thành Viên</a></li>
+                <li><a href="activities.html"><i class="fas fa-calendar-alt"></i> Hoạt Động</a></li>
+                <li><a href="yearbook.html"><i class="fas fa-camera"></i> Kỷ Yếu</a></li>
+                <li><a href="information.html"><i class="fas fa-info-circle"></i> Liên Hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="members">
+            <h2><i class="fas fa-user-graduate"></i> Thành Viên Lớp 12A7</h2>
+            <p class="section-desc">Gặp gỡ những thành viên tuyệt vời của lớp chúng ta!</p>
+
+            <div class="member-filters">
+                <button class="filter-btn active" data-filter="all">Tất cả</button>
+                <button class="filter-btn" data-filter="ban-can-su">Ban Cán Sự</button>
+                <button class="filter-btn" data-filter="to-truong">Tổ Trưởng</button>
+                <button class="filter-btn" data-filter="hoc-sinh">Học Sinh</button>
+            </div>
+
+            <div class="members-grid">
+                <div class="member-card" data-category="hoc-sinh">
+                    <div class="member-image">
+                        <img src="images/qanh.jpg" alt="Huỳnh Quốc Anh">
+                        <div class="member-role">Học sinh</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Huỳnh Quốc Anh</h3>
+                        <p class="member-quote">"Bạn là một viên kẹo ngọt ngào, hãy mang đến niềm vui cho mọi người."</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-birthday-cake"></i> 28/04/2007</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Hồng Ngự</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="member-card" data-category="ban-can-su">
+                    <div class="member-image">
+                        <img src="images/kanh.jpg" alt="Nguyễn Thị Kim Anh">
+                        <div class="member-role">Học sinh</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Nguyễn Thị Kim Anh</h3>
+                        <p class="member-quote">"Đừng quên rằng bạn đáng yêu hơn bạn nghĩ."</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-birthday-cake"></i> 10/12/2007</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Hồng Ngự</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="member-card" data-category="hoc-sinh">
+                    <div class="member-image">
+                        <img src="images/panh.jpg" alt="Phan Nguyễn Phương Anh">
+                        <div class="member-role">Học sinh</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Phan Nguyễn Phương Anh</h3>
+                        <p class="member-quote">"Một nụ cười nhỏ có thể thay đổi cả thế giới."</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-birthday-cake"></i> 07/03/2007</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Hồng Ngự</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="member-card" data-category="hoc-sinh">
+                    <div class="member-image">
+                        <img src="images/bac.jpg" alt="Phan Trung Bạc">
+                        <div class="member-role">Học sinh</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Phan Trung Bạc</h3>
+                        <p class="member-quote">"Nín, vạn vật theo hàng đợi”</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-birthday-cake"></i> 21/05/2007</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Hồng Ngự</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="member-card" data-category="hoc-sinh">
+                    <div class="member-image">
+                        <img src="images/danh.jpg" alt="Nguyễn Công Danh">
+                        <div class="member-role">Học sinh</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Nguyễn Công Danh</h3>
+                        <p class="member-quote">"Hãy tin vào những điều kỳ diệu, vì chúng luôn tồn tại."</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-birthday-cake"></i> 19/04/2007</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Hồng Ngự</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="member-card" data-category="ban-can-su">
+                    <div class="member-image">
+                        <img src="images/dan.jpg" alt="Bùi Khánh Dân">
+                        <div class="member-role">Học sinh</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Bùi Khánh Dân</h3>
+                        <p class="member-quote">"Bạn là một phiên bản giới hạn, đừng cố gắng trở thành bản sao của ai khác."</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-birthday-cake"></i> 12/11/2007</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Hồng Ngự</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="member-card" data-category="ban-can-su">
+                    <div class="member-image">
+                        <img src="images/duy.jpg" alt="Phạm Tuấn Duy">
+                        <div class="member-role">Học sinh</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Phạm Tuấn Duy</h3>
+                        <p class="member-quote">"Hãy ôm lấy những điều không hoàn hảo, vì chúng tạo nên sự đặc biệt của bạn."</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-birthday-cake"></i> 09/05/2007</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Hồng Ngự</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="member-card" data-category="hoc-sinh">
+                    <div class="member-image">
+                        <img src="images/duyen.jpg" alt="Lâm Hải Duyên">
+                        <div class="member-role">Học sinh</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Lâm Hải Duyên</h3>
+                        <p class="member-quote">"Đừng bao giờ đánh mất sự hồn nhiên trong trẻo của mình."</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-birthday-cake"></i> 08/03/2007</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Hồng Ngự</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="member-card" data-category="hoc-sinh">
+                    <div class="member-image">
+                        <img src="images/dat.jpg" alt="Nguyễn Thành Đạt">
+                        <div class="member-role">Học sinh</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Nguyễn Thành Đạt</h3>
+                        <p class="member-quote">"Hãy để trái tim dẫn đường, vì nó luôn biết con đường đúng đắn."</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-birthday-cake"></i> 03/02/2007</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Hồng Ngự</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="member-card" data-category="hoc-sinh">
+                    <div class="member-image">
+                        <img src="images/han.jpg" alt="Bùi Thị Ngọc Hân">
+                        <div class="member-role">Học sinh</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Bùi Thị Ngọc Hân</h3>
+                        <p class="member-quote">"Bạn là một ngôi sao sáng, hãy tỏa sáng theo cách rực rỡ nhất."</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-birthday-cake"></i> 12/03/2007</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Hồng Ngự</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="member-card" data-category="to-truong">
+                    <div class="member-image">
+                        <img src="images/hien.jpg" alt="Trần Thị Ngọc Hiên">
+                        <div class="member-role">Học sinh</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Trần Thị Ngọc Hiên</h3>
+                        <p class="member-quote">"Hãy trân trọng những khoảnh khắc nhỏ bé, vì chúng tạo nên hạnh phúc lớn lao."</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-birthday-cake"></i> 02/03/2007</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Hồng Ngự</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="member-card" data-category="hoc-sinh">
+                    <div class="member-image">
+                        <img src="images/hoa.jpg" alt="Nguyễn Cao Mỹ Hoa">
+                        <div class="member-role">Học sinh</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Nguyễn Cao Mỹ Hoa</h3>
+                        <p class="member-quote">"Hãy luôn tìm thấy niềm vui trong những điều giản dị."</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-birthday-cake"></i> 13/01/2007</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Hồng Ngự</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="member-card" data-category="to-truong">
+                    <div class="member-image">
+                        <img src="images/huy.jpg" alt="Huỳnh Quách Huy">
+                        <div class="member-role">Học sinh</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Huỳnh Quách Huy</h3>
+                        <p class="member-quote">"Bạn là một món quà quý giá, hãy trân trọng bản thân mình."</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-birthday-cake"></i> 12/05/2007</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Hồng Ngự</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="member-card" data-category="hoc-sinh">
+                    <div class="member-image">
+                        <img src="images/huyen.jpg" alt="Nguyễn Thị Bích Huyền">
+                        <div class="member-role">Học sinh</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Nguyễn Thị Bích Huyền</h3>
+                        <p class="member-quote">"Hãy lan tỏa yêu thương và lòng tốt đến mọi người xung quanh."</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-birthday-cake"></i> 20/01/2007</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Hồng Ngự</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="member-card" data-category="to-truong">
+                    <div class="member-image">
+                        <img src="images/hy.jpg" alt="Quách Gia Hỷ">
+                        <div class="member-role">Học sinh</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Quách Gia Hỷ</h3>
+                        <p class="member-quote">"Bạn là một bông hoa xinh đẹp, hãy nở rộ theo cách riêng."</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-birthday-cake"></i> 12/09/2007</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Hồng Ngự</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="member-card" data-category="hoc-sinh">
+                    <div class="member-image">
+                        <img src="images/vkhang.jpg" alt="Nguyễn La Vĩnh Khang">
+                        <div class="member-role">Học sinh</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Nguyễn La Vĩnh Khang</h3>
+                        <p class="member-quote">"Hãy để trí tưởng tượng của bạn bay cao và xa."</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-birthday-cake"></i> 12/04/2007</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Hồng Ngự</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="member-card" data-category="hoc-sinh">
+                    <div class="member-image">
+                        <img src="images/gkhang.jpg" alt="Quách Gia Khang">
+                        <div class="member-role">Học sinh</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Quách Gia Khang</h3>
+                        <p class="member-quote">"Bạn là một viên ngọc quý, hãy tỏa sáng lấp lánh."</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-birthday-cake"></i> 24/07/2007</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Hồng Ngự</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="member-card" data-category="hoc-sinh">
+                    <div class="member-image">
+                        <img src="images/kiet.jpg" alt="Đỗ Huỳnh Anh Kiệt">
+                        <div class="member-role">Học sinh</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Đỗ Huỳnh Anh Kiệt</h3>
+                        <p class="member-quote">"Hãy luôn giữ nụ cười trên môi, vì nó là vũ khí lợi hại nhất."</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-birthday-cake"></i> 27/12/2007</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Hồng Ngự</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="member-card" data-category="hoc-sinh">
+                    <div class="member-image">
+                        <img src="images/long.jpg" alt="Nguyễn Ngọc Băng Long">
+                        <div class="member-role">Học sinh</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Nguyễn Ngọc Băng Long</h3>
+                        <p class="member-quote">"Bạn là một phép màu, hãy tin vào sức mạnh của mình."</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-birthday-cake"></i> 31/12/2007</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Hồng Ngự</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="member-card" data-category="hoc-sinh">
+                    <div class="member-image">
+                        <img src="images/hminh.jpg" alt="Huỳnh Hữu Minh">
+                        <div class="member-role">Học sinh</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Huỳnh Hữu Minh</h3>
+                        <p class="member-quote">"Hãy để trái tim bạn nhảy múa theo điệu nhạc của cuộc sống."</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-birthday-cake"></i> 14/01/2007</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Hồng Ngự</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="member-card" data-category="ban-can-su">
+                    <div class="member-image">
+                        <img src="images/xminh.jpg" alt="Phan Võ Xuân Minh">
+                        <div class="member-role">Học sinh</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Phan Võ Xuân Minh</h3>
+                        <p class="member-quote">"Bạn là một thiên thần, hãy lan tỏa sự ấm áp và yêu thương."</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-birthday-cake"></i> 11/01/2007</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Hồng Ngự</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="member-card" data-category="hoc-sinh">
+                    <div class="member-image">
+                        <img src="images/nghi.jpg" alt="Tần Nghi">
+                        <div class="member-role">Học sinh</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Tần Nghi</h3>
+                        <p class="member-quote">"Hãy luôn tìm thấy vẻ đẹp trong những điều nhỏ nhặt."</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-birthday-cake"></i> 04/06/2007</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Hồng Ngự</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="member-card" data-category="hoc-sinh">
+                    <div class="member-image">
+                        <img src="images/knhi.jpg" alt="Nguyễn Thị Khả Nhi">
+                        <div class="member-role">Học sinh</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Nguyễn Thị Khả Nhi</h3>
+                        <p class="member-quote">"Bạn là một giấc mơ ngọt ngào, hãy biến nó thành hiện thực."</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-birthday-cake"></i> 08/06/2007</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Hồng Ngự</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="member-card" data-category="hoc-sinh">
+                    <div class="member-image">
+                        <img src="images/pnhi.jpg" alt="Trần Thị Phương Nhi">
+                        <div class="member-role">Học sinh</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Trần Thị Phương Nhi</h3>
+                        <p class="member-quote">"Hãy để tâm hồn bạn bay bổng như những cánh chim."</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-birthday-cake"></i> 21/03/2007</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Hồng Ngự</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="member-card" data-category="hoc-sinh">
+                    <div class="member-image">
+                        <img src="images/ynhi.jpg" alt="Võ Thị Yến Nhi">
+                        <div class="member-role">Học sinh</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Võ Thị Yến Nhi</h3>
+                        <p class="member-quote">"Bạn là một tia nắng ấm áp, hãy sưởi ấm trái tim mọi người."</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-birthday-cake"></i> 29/09/2007</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Hồng Ngự</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="member-card" data-category="hoc-sinh">
+                    <div class="member-image">
+                        <img src="images/thnhu.jpg" alt="Lâm Thiên Như">
+                        <div class="member-role">Học sinh</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Lâm Thiên Như</h3>
+                        <p class="member-quote">"Hãy luôn tin vào phép màu của sự tử tế."</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-birthday-cake"></i> 07/09/2007</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Hồng Ngự</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="member-card" data-category="hoc-sinh">
+                    <div class="member-image">
+                        <img src="images/thnhu.jpg" alt="Tăng Thị Huỳnh Như">
+                        <div class="member-role">Học sinh</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Tăng Thị Huỳnh Như</h3>
+                        <p class="member-quote">"Bạn là một ngôi sao băng, hãy mang đến những điều ước tốt đẹp."</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-birthday-cake"></i> 04/09/2007</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Hồng Ngự</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="member-card" data-category="hoc-sinh">
+                    <div class="member-image">
+                        <img src="images/phat.jpg" alt="Nguyễn Tấn Phát">
+                        <div class="member-role">Học sinh</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Nguyễn Tấn Phát</h3>
+                        <p class="member-quote">"Hãy để nụ cười của bạn là ngôn ngữ chung của thế giới."</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-birthday-cake"></i> 12/03/2007</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Hồng Ngự</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="member-card" data-category="hoc-sinh">
+                    <div class="member-image">
+                        <img src="images/phuc.jpg" alt="Nguyễn Trương Thiên Phúc">
+                        <div class="member-role">Học sinh</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Nguyễn Trương Thiên Phúc</h3>
+                        <p class="member-quote">"Bạn là một câu chuyện cổ tích, hãy viết nên cái kết đẹp nhất."</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-birthday-cake"></i> 01/01/2007</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Hồng Ngự</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="member-card" data-category="hoc-sinh">
+                    <div class="member-image">
+                        <img src="images/thien.jpg" alt="Lâm Hoàng Thiên">
+                        <div class="member-role">Học sinh</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Lâm Hoàng Thiên</h3>
+                        <p class="member-quote">"Hãy luôn tìm thấy niềm vui trong những điều bất ngờ."</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-birthday-cake"></i> 05/07/2007</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Hồng Ngự</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="member-card" data-category="to-truong">
+                    <div class="member-image">
+                        <img src="images/mthu.jpg" alt="Lê Minh Thư">
+                        <div class="member-role">Học sinh</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Lê Minh Thư</h3>
+                        <p class="member-quote">"Hãy luôn là mặt trời của chính mình, tỏa sáng theo cách riêng.”</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-birthday-cake"></i> 07/09/2007</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Hồng Ngự</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="member-card" data-category="hoc-sinh">
+                    <div class="member-image">
+                        <img src="images/athu.jpg" alt="Lê Nguyễn Anh Thư">
+                        <div class="member-role">Học sinh</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Lê Nguyễn Anh Thư</h3>
+                        <p class="member-quote">"Hãy để trái tim bạn hát vang những giai điệu yêu thương."</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-birthday-cake"></i> 21/06/2007</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Hồng Ngự</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="member-card" data-category="ban-can-su">
+                    <div class="member-image">
+                        <img src="images/tien.jpg" alt="Võ Tân Tiến">
+                        <div class="member-role">Học sinh</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Võ Tân Tiến</h3>
+                        <p class="member-quote">"Bạn là một thiên thần nhỏ, hãy lan tỏa sự thuần khiết và trong sáng."</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-birthday-cake"></i> 27/12/2007</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Hồng Ngự</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="member-card" data-category="hoc-sinh">
+                    <div class="member-image">
+                        <img src="images/htram.jpg" alt="Nguyễn Lê Huyền Trâm">
+                        <div class="member-role">Học sinh</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Nguyễn Lê Huyền Trâm</h3>
+                        <p class="member-quote">"Hãy luôn tìm thấy vẻ đẹp trong sự khác biệt."</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-birthday-cake"></i> 18/04/2007</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Hồng Ngự</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="member-card" data-category="hoc-sinh">
+                    <div class="member-image">
+                        <img src="images/btram.jpg" alt="Nguyễn Thị Bích Trâm">
+                        <div class="member-role">Học sinh</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Nguyễn Thị Bích Trâm</h3>
+                        <p class="member-quote">"Bạn là một giấc mơ đẹp, hãy giữ nó mãi trong tim."</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-birthday-cake"></i> 17/10/2007</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Hồng Ngự</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="member-card" data-category="hoc-sinh">
+                    <div class="member-image">
+                        <img src="images/trinh.jpg" alt="Lê Thị Kiều Trinh">
+                        <div class="member-role">Học sinh</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Lê Thị Kiều Trinh</h3>
+                        <p class="member-quote">"Hãy để tâm hồn bạn bay cao như những cánh diều."</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-birthday-cake"></i> 23/05/2007</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Hồng Ngự</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="member-card" data-category="hoc-sinh">
+                    <div class="member-image">
+                        <img src="images/atuyet.jpg" alt="Phan Ánh Tuyết">
+                        <div class="member-role">Học sinh</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Phan Ánh Tuyết</h3>
+                        <p class="member-quote">"Bạn là một tia nắng ban mai, hãy mang đến hy vọng cho mọi người."</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-birthday-cake"></i> 04/09/2007</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Hồng Ngự</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="member-card" data-category="hoc-sinh">
+                    <div class="member-image">
+                        <img src="images/ptuyet.jpg" alt="Trương Phạm Phi Tuyệt">
+                        <div class="member-role">Học sinh</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Trương Phạm Phi Tuyệt</h3>
+                        <p class="member-quote">"Hãy luôn tin vào sức mạnh của lòng tốt."</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-birthday-cake"></i> 10/04/2007</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Hồng Ngự</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="member-card" data-category="hoc-sinh">
+                    <div class="member-image">
+                        <img src="images/bvy.jpg" alt="Lê Bảo Vy">
+                        <div class="member-role">Học sinh</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Lê Bảo Vy</h3>
+                        <p class="member-quote">"Bạn là một ngôi sao lấp lánh, hãy tỏa sáng rực rỡ."</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-birthday-cake"></i> 09/05/2007</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Hồng Ngự</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="member-card" data-category="hoc-sinh">
+                    <div class="member-image">
+                        <img src="images/bvy.jpg" alt="Lê Tuyết Vy">
+                        <div class="member-role">Học sinh</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Lê Tuyết Vy</h3>
+                        <p class="member-quote">"Hãy để nụ cười của bạn là ánh sáng dẫn đường."</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-birthday-cake"></i> 09/05/2007</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Hồng Ngự</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="member-card" data-category="ban-can-su">
+                    <div class="member-image">
+                        <img src="images/y.jpg" alt="Nguyễn Thị Như Ý">
+                        <div class="member-role">Học sinh</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Nguyễn Thị Như Ý</h3>
+                        <p class="member-quote">"Bạn là một câu chuyện tình yêu, hãy viết nên cái kết viên mãn."</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-birthday-cake"></i> 29/03/2007</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Hồng Ngự</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="member-card" data-category="hoc-sinh">
+                    <div class="member-image">
+                        <img src="images/pyen.jpg" alt="Lê Nguyễn Phi Yến">
+                        <div class="member-role">Học sinh</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Lê Nguyễn Phi Yến</h3>
+                        <p class="member-quote">"Hãy luôn tìm thấy niềm vui trong những điều bình dị."</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-birthday-cake"></i> 05/02/2007</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Hồng Ngự</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="member-card" data-category="hoc-sinh">
+                    <div class="member-image">
+                        <img src="images/tyen.jpg" alt="Tống Nguyễn Hải Yến">
+                        <div class="member-role">Học sinh</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Tống Nguyễn Hải Yến</h3>
+                        <p class="member-quote">"Bạn là một viên ngọc trai quý giá, hãy trân trọng giá trị của mình.”</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-birthday-cake"></i> 13/02/2007</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Hồng Ngự</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="member-card" data-category="hoc-sinh">
+                    <div class="member-image">
+                        <img src="images/ty.jpg" alt="Phan Trung Tỷ">
+                        <div class="member-role">Học sinh</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Phan Trung Tỷ</h3>
+                        <p class="member-quote">"Học, học nữa học mãi!"</p>
+                        <div class="member-details">
+                            <span><i class="fas fa-birthday-cake"></i> 21/05/2007</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Hồng Ngự</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="copyright">
+                <p>&copy; 2025 Lê Minh Thư Lớp 12A7 - THPT Chu Văn An</p>
+            </div>
+            <div class="social-links">
+                <a href="mailto:lethu29102019@gmail.com" class="social-link">
+                    <i class="fas fa-envelope"></i>
+                    <span>lethu29102019@gmail.com</span>
+                </a>
+                <a href="https://www.facebook.com/lmt797" target="_blank" class="social-link">
+                    <i class="fab fa-facebook"></i>
+                    <span>Lê Minh Thư</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
